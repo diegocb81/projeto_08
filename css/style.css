@@ -18,6 +18,7 @@ section.bg-top{
     background-image: url('../img/bg.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -33,8 +34,14 @@ section.bg-top{
     position: absolute;
     left: 0;
     top: 0;
-    background: rgba(40,40,40,0.4);
+    background: rgba(100,100,100,0.4);
 }
+
+.texto-bg{
+    color: white;
+    margin-top: 140px;
+}
+
 
 @media screen and (max-width: 1024px){
     /*
