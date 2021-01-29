@@ -1,0 +1,53 @@
+
+
+
+.nav-link{
+    margin: 0 15px;
+}
+
+/*Estilos próprios*/
+
+.box-fix{
+    position: relative;
+    top: 55px;
+}
+
+section.bg-top{
+    width: 100%;
+    min-height: 450px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fix-zindex{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(40,40,40,0.4);
+}
+
+@media screen and (max-width: 1024px){
+    /*
+    .navbar-nav{
+        margin-top: 30px;
+    }
+    .nav-link{
+        border-top: 1px solid black;
+        margin: 0 10px;
+    }
+    */
+
+    .nav-link{
+        margin: 0;
+    }
+}
