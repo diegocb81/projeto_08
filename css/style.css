@@ -38,8 +38,18 @@ section.bg-top{
 }
 
 .texto-bg{
-    color: white;
-    margin-top: 140px;
+    color: black;
+    padding: 140px 0;
+    display: inline-block;
+}
+
+.padding30{
+    padding-right: 30px;
+    text-align: justify;
+}
+
+button{
+    margin-top: 8px;
 }
 
 
@@ -57,4 +67,11 @@ section.bg-top{
     .nav-link{
         margin: 0;
     }
+}
+
+@media screen and (max-width: 768px){
+    .row-cols-2{
+    display: inline;
+}
+
 }
