@@ -52,6 +52,16 @@ button{
     margin-top: 8px;
 }
 
+section.chamada{
+    background: #0d6efd;
+    padding: 8px 0;
+    color: white;
+}
+
+section.chamada h2{
+    font-size: 34px;
+}
+
 
 @media screen and (max-width: 1024px){
     /*
