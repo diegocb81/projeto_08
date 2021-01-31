@@ -131,7 +131,14 @@ section.contato{
     background: rgb(225,225,225);
 }
 
+footer{
+    background: #333;
+    color: white;
+}
 
+footer ul{
+    list-style-type: none;
+}
 
 @media screen and (max-width: 1024px){
     /*
