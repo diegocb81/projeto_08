@@ -132,12 +132,25 @@ section.contato{
 }
 
 footer{
+    padding: 14px 0;
     background: #333;
     color: white;
 }
 
 footer ul{
+    padding: 0;
+    margin: 0;
     list-style-type: none;
+    list-style-position: inside;
+}
+
+.group-btns a{
+    margin: 0 10px;
+}
+
+footer a{
+    font-size: 17px;
+    color: white;
 }
 
 @media screen and (max-width: 1024px){
